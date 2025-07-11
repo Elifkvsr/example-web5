@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- GOOGLE-FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONT-AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <!-- REMİX-İCON -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+    />
+
+
+
+    <title>Ömer Dai</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-container">
+          <div class="logo">
+            <a href="index.html">
+              <img src="assets/images/logo.png" alt="Ömer Dai Logo" />
+            </a>
+          </div>
+
+          <!-- Hamburger Menu Button -->
+          <div class="hamburger" id="hamburger">
+            <i class="ri-menu-3-line"></i>
+          </div>
+
+       <nav class="header-nav">
+        <ul class="nav-menu">
+          <li class="has-dropdown">
+            <a href="#">Tedavi Alanları</a>
+            <ul class="dropdown-menu">
+              <li class="nested-dropdown">
+                <a href="gebelik-dogum.html">
+                  <span class="icon-hover-bg"><i class="ri-arrow-right-s-line"></i></span>
+                  Gebelik ve Doğum
+                </a>
+                <ul class="nested-dropdown-menu">
+                  <li>
+                    <a href="dai.html">
+                      <span class="icon-hover-bg">
+                        <i class="ri-arrow-right-s-line"></i>
+                      </span>
+                      Dr. Ömer Dai
+                    </a>
+                  </li>
+                  <li>
+                    <a href="klinik.html">
+                      <span class="icon-hover-bg">
+                        <i class="ri-arrow-right-s-line"></i>
+                      </span>
+                      Kliniğimiz
+                    </a>
+                  </li>
+                  <li>
+                    <a href="uzmanlik-alan.html">
+                      <span class="icon-hover-bg">
+                        <i class="ri-arrow-right-s-line"></i>
+                      </span>
+                      Uzman Kadromuz
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="tedavi-yontem.html">
+                  <span class="icon-hover-bg">
+                    <i class="ri-arrow-right-s-line"></i>
+                  </span>
+                  Jinekoloji
+                </a>
+              </li>
+              <li>
+                <a href="gebelikte-agrilar.html">
+                  <span class="icon-hover-bg">
+                    <i class="ri-arrow-right-s-line"></i>
+                  </span>
+                  Vajinal Estetik
+                </a>
+              </li>
+              <li>
+                <a href="yazilar.html">
+                  <span class="icon-hover-bg">
+                    <i class="ri-arrow-right-s-line"></i>
+                  </span>
+                  Kürtaj
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="yazilar.html">Yazılarım</a></li>
+          <li>
+            <a href="#">Kurumsal</a>
+          </li>
+          <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+    </nav>
+
+          <div class="header-right">
+               <a style="color: #000;" href="arama.html" class="search-btn">
+              <i class="ri-circle-line"></i>
+            </a>
+            <a href="#" class="whatsapp-btn">
+              <p>WhatsApp İletişim</p>
+              <img src="assets/images/whatsap.png" alt="WhatsApp" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <nav class="mobile-menu" id="mobileMenu">
+      <div class="mobile-header">
+        <img src="assets/images/logo.png" alt="Logo" class="logo" />
+        <button class="close-btn" id="closeMenu">
+          <i class="ri-close-line"></i>
+        </button>
+      </div>
+
+      <div class="mobile-menu-content">
+        <ul>
+          <li>
+            <a href="#" id="tedaviToggle">
+              <span>Tedavi Alanları</span>
+             <span class="icon-hover-bg">
+            <i class="ri-arrow-right-s-line"></i>
+            </a>
+            <ul class="dropdown" id="tedaviDropdown">
+              <li><a href="gebelik-dogum.html">Gebelik ve Doğum</a></li>
+              <li><a href="tedavi-yontem.html">Jinekoloji</a></li>
+              <li><a href="gebelikte-agrilar.html">Vajinal Estetik</a></li>
+              <li><a href="#">Kürtaj</a></li>
+            </ul>
+          </li>
+          <li><a href="yazilar.html">Yazılarım</a></li>
+          <li><a href="#" id="tedaviToggle">
+              <span>Kurumsal</span>
+             <span class="icon-hover-bg">
+             <i class="ri-arrow-right-s-line"></i>
+            </a>
+            <ul class="dropdown" id="tedaviDropdown">
+              <li><a href="#">Gebelik ve Doğum</a></li>
+              <li><a href="#">Jinekoloji</a></li>
+              <li><a href="#">Vajinal Estetik</a></li>
+              <li><a href="#">Kürtaj</a></li>
+            </ul></li>
+          <li><a href="#">İletişim</a></li>
+        </ul>
+
+      <div class="contact-info-box">
+        <div class="contact-line">
+          <div class="contact-icon">
+          <img src="assets/images/call1.svg" alt="Phone icon">
+         </div>
+         <div class="contact-text">
+           <p class="contact-title">DESTEK VE ÇAĞRI HATTI</p>
+           <p class="contact-number">0 342 606 04 81</p>
+         </div>
+       </div>
+
+       <div class="contact-address">
+         <p>Gazi Mah. Ali Nadi Ünler Bulvarı 24002 Nolu Sokak No 2/A
+         Şehitkamil / Gaziantep</p>
+         <p style="margin-left: 5px;">doktor@dromerdai.com</p>
+       </div>
+     </div>
+
+        <a
+          href="https://wa.me/905000000000"
+          class="whatsapp-btn-mobile"
+          target="_blank" style="color: white; "
+        >
+          WhatsApp İletişim<img src="assets/images/whatsap.png" alt="WhatsApp" />
+
+        </a>
+
+        <div class="social-mobil">
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+          <a href="#"><i class="ri-twitter-x-line"></i></a>
+          <a href="#"><i class="ri-instagram-line"></i></a>
+          <a href="#"><i class="ri-linkedin-fill"></i></a>
+        </div>
+      </div>
+    </nav>
+
+
+  <div class="header-orta">
+  <div class="header-sol">
+  <!-- Masaüstü resmi -->
+  <img src="assets/images/bg.png" alt="Arka plan" class="header-image desktop-img">
+  <!-- Mobil resmi -->
+  <img src="assets/images/slider_mobil.png" alt="Mobil Arka Plan" class="header-image mobile-img">
+
+  <div class="header-text-overlay">
+    <h1><span class="highlight">Sağlıklı nesilleri</span> <br>
+    sağlıklı anneler <br>
+    yetiştirir.</h1>
+    <p>Herhangi bir ilaç takviyesi veya medikal bir müdahale olmadan doğum yapmayı mı düşünüyorsunuz?
+    O zaman doğal doğum seçeneği, sizin için uygun olabilir.</p>
+    <button><i class="ri-arrow-right-up-long-line"></i>Randevu Al</button>
+     </div>
+ </div>
+
+
+    <div class="header-sag">
+      <div class="header-box ust">
+        <h2>Bizi Arayın</h2>
+        <p>Daha fazla bilgi almak için bizimle doğrudan iletişime geçebilirsiniz.</p>
+        <div class="phone"> 
+        <i class="fa-solid fa-phone" style="color: #9f64d9;"></i>
+        <div>
+            <span class="label">TELEFON</span>
+            <span class="number">0 342 606 04 81</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-box alt">
+        <h2 style="color: #128aaf;">Uzman Kadromuz</h2>
+        <p>Kadın sağlığında güvenilir destekçiniz olan deneyimli ekibimizle yanınızdayız.</p>
+        <div class="arrow">
+          <a href="#"><i class="ri-arrow-right-up-long-line"></i>EKİBİMİZ</a>
+        </div>
+        </div>
+      </div>
+    </div>
+ 
+
+<section  id="treatments-section">
+  <div class="header-area">
+    <div class="haeder-slider">
+      <div class="header-slider-text">
+        <h1>Kadın Hastalıkları ve Doğum</h1>
+        <p>Tüp bebek tedavisi, kısırlık, jinekoloji, kürtaj ve daha birçok danışmanlık ve tedavi için kliniğimiz ile iletişime geçebilirsiniz.</p>
+
+        <div class="slider-tab">
+          <button class="tab-btn active" data-tab="all">Tüm Tedaviler</button>
+          <button class="tab-btn" data-tab="gebelik">Gebelik ve Doğum</button>
+          <button class="tab-btn" data-tab="jinekoloji">Jinekoloji</button>
+          <button class="tab-btn" data-tab="vajinal">Vajinal Estetik</button>
+          <button class="tab-btn" data-tab="kurtaj">Kürtaj</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tab içerikleri -->
+ <div class="tab-content active" id="all">
+    <div class="slider-container drag-scroll">
+      <a href="tedavi-yontem.html" style="color: #000;" class="slider">
+        <div class="card">
+          <div class="card-icon"><img src="assets/images/gri-arrow.svg" alt=""></div>
+          <span>Tüm Tedaviler</span>
+           <h3>Smear Testi</h3>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam pariatur perferendis nisi exercitationem repellendus hic.</p>
+          </div>
+
+        <div class="card">
+          <div class="card-icon"><img src="assets/images/gri-arrow.svg" alt=""></div>
+          <span>Tüm Tedaviler</span>
+          <h3>Gebelik Takibi</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit fugit officia dolor vel impedit a?</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><img src="assets/images/gri-arrow.svg" alt=""></div>
+          <span>Tüm Tedaviler</span>
+          <h3>Labioplasti</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nulla quia, dolor laborum aspernatur consequatur?</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><img src="assets/images/gri-arrow.svg" alt=""></div>
+          <span>Tüm Tedaviler</span>
+          <h3>Kürtaj</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum eius tenetur, quaerat consequatur harum veniam.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><img src="assets/images/gri-arrow.svg" alt=""></div>
+          <span>Tüm Tedaviler</span>
+          <h3>Doğum Planlaması</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero delectus enim id commodi sed doloremque!</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><img src="assets/images/gri-arrow.svg" alt=""></div>
+          <span>Tüm Tedaviler</span>
+          <h3>HPV Aşısı</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dignissimos nulla aut eius, cum quo.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+
+  <div class="tab-content" id="gebelik">
+    <div class="slider-container drag-scroll">
+      <div class="slider">
+        <div class="card"><div class="card-icon"><img src="assets/images/gri-arrow.svg" alt=""></div><span>Gebelik</span><h3>Takip</h3><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et placeat perspiciatis tempora laudantium quasi harum!</p></div>
+        <div class="card"><span>Gebelik</span><h3>Planlama</h3><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, facere sequi enim beatae iste distinctio!</p></div>
+      </div>
+    </div>
+  </div>
+
+   <div class="tab-content" id="jinekoloji">
+    <div class="slider-container drag-scroll">
+      <div class="slider">
+        <div class="card"><div class="card-icon"><img src="./assets/images/gri-arrow.svg" alt=""></div><span>Jinekoloji</span><h3>Smear</h3><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio eius necessitatibus ex aspernatur earum maxime.</p></div>
+        <div class="card"><span>Jinekoloji</span><h3>Menopoz</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita totam officia vitae consequuntur harum maxime.</p></div>
+      </div>
+    </div>
+  </div>
+
+   <div class="tab-content" id="vajinal">
+    <div class="slider-container drag-scroll">
+      <div class="slider">
+        <div class="card"><div class="card-icon"><img src="./assets/images/gri-arrow.svg" alt=""></div><span>Vajinal Estetik</span><h3>Labioplasti</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam impedit doloremque ipsum error, qui quae.</p></div>
+        <div class="card"><span>Vajinal Estetik</span><h3>Vajinoplasti</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, beatae consequatur! Illum perferendis doloremque quas.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tab-content" id="kurtaj">
+    <div class="slider-container drag-scroll">
+      <div class="slider">
+        <div class="card"><i class="ri-arrow-right-up-long-line card-icon"></i><span>Kürtaj</span><h3>Vakum</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ad placeat, in voluptas praesentium animi.</p></div>
+        <div class="card"><span>Kürtaj</span><h3>İlaçla</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime et molestias non? Eos, dolorum explicabo.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="whatsapp-float">
+    <a href="https://wa.me/905XXXXXXXXX" class="whatsapp-link" target="_blank" rel="noopener noreferrer">
+        <div class="whatsapp-icon">
+            <svg class="whatsapp-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.479 5.092 1.479 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+            </svg>
+        </div>
+        <span class="whatsapp-tooltip">WhatsApp'tan Hızlı Randevu</span>
+        <div class="whatsapp-ripple"></div>
+    </a>
+</div>
+
+<div class="hakkimda-area"> 
+ <div class="container">
+  <div class="hakkimda-alan">
+  <!-- Sol Kutu -->
+  <div class="sol-box">
+    <span class="etiket-sol">Hakkımda</span>
+    <div class="sol-text">
+      <h1>Op. Dr. Ömer Dai</h1>
+    <h2>Kadın Hastalıkları Uzmanı</h2>
+    <p>
+      1983 yılında Gaziantep’te doğdum. Gaziantep Anadolu lisesi’nde orta öğretimimi tamamladıktan sonra 2009 yılında Erciyes Üniversitesi Tıp fakültesi’nden mezun oldum. Uzmanlığımı Ankara Üniversitesi Tıp Fakültesi Kadın Hastalıkları ve Doğum kliniğinde 2014 yılında tamamladım. 2012 yılında Amerika Birleşik Devletlerinde Tufts Üniversitesi Ürojinekoloji (idrar kaçırma ve rahim sarkması) kliniğinde gözlemci olarak bulundum.
+    </p>
+    <p>
+      2014 yılında Uluslararası Kontinans Derneği’nin (ICS) bursu ile Portekiz’de Pelvik taban hastalıkları üzerinde kadavra çalışmaları yaptım. Mecburi hizmetimi Kilis Devlet hastanesi’nde tamamladıktan sonra Gaziantep’te Cengiz Gökçek Kadın Hastalıkları, Doğum, Çocuk hastanesi’nde takiben Aralık 2017-Mayıs 2019 tarihi arasında Ersin Aslan Eğitim Araştırma Hastanesi’nde çalıştım.
+    </p>
+    </div>
+    <div class="doctor-photo">
+      <img src="assets/images/doctor.png" alt="doktor">
+    </div>
+
+      <div class="social-share alt-share">
+       <div class="share-wrapper">
+         <div class="share-btn"><img src="assets/images/paylas.svg" alt=""></div>
+        <div class="social-icons-omerdai">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-x-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sağ Kutu -->
+  <div class="sag-box">
+    <span class="etiket-sag">Deneyimler</span>
+     <h1>Uzmanlık Alanlarım</h1>
+      <div class="sag-text">
+       <p>
+      Opr. Dr. Ömer Dai kadın hastalıkları ve doğum alanında uzmanlaşmış ve Gaziantep’te özel kliniğinde hizmet veren bir tıp doktorudur.
+       </p>
+    <ul>
+      <li><img src="assets/images/tik.png" alt=""> Gebelik Takibi</li>
+      <li><img src="assets/images/tik.png" alt=""> Adet Düzensizliği</li>
+      <li><img src="assets/images/tik.png" alt=""> İdrar Kaçırma Tedavisi</li>
+    </ul>
+  </div>
+
+    <button class="daha-btn"><i class="ri-arrow-right-up-long-line"></i>Daha Fazla</button>
+     </div>
+   </div>
+  </div>
+
+
+
+<div class="dai-area">
+  <div class="container">
+    <div class="dai-blog-header">
+      <div class="dai-left">
+        <h3>Op. Dr. Ömer Dai’nin Kaleminden</h3>
+        <h1>Blog Yazılarım</h1>
+        <p>Kadın hastalıkları, doğum öncesi ve sonrası hakkında birçok konuda daha bilgili olmanızı sağlayacak içerikler için blog alanımızı takip edin!</p>
+      </div>
+      <div class="dai-right">
+        <a href="#">Tüm Yazılarım</a>
+      </div>
+    </div>
+
+    <div class="dai-grid">
+      <div class="dai-colon">
+        <img src="assets/images/img4.png" alt="Blog Görseli">
+        <div class="dai-content">
+          <div class="dai-date">
+            <img src="assets/images/calendar.svg" alt="Takvim">
+            <span>23.07.2020</span>
+          </div>
+          <p>Sağlıklı Bir Ortamda Bebek Bakmanın En Önemli Kuralları</p>
+        </div>
+      </div>
+
+      <div class="dai-colon">
+        <img src="assets/images/img2.png" alt="Blog Görseli">
+        <div class="dai-content">
+          <div class="dai-date">
+            <img src="assets/images/calendar.svg" alt="Takvim">
+            <span>23.07.2020</span>
+          </div>
+          <p>Sağlıklı Bir Ortamda Bebek Bakmanın En Önemli Kuralları</p>
+        </div>
+      </div>
+
+      <div class="dai-colon">
+        <img src="assets/images/img3.png" alt="Blog Görseli">
+        <div class="dai-content">
+          <div class="dai-date">
+            <img src="assets/images/calendar.svg" alt="Takvim">
+            <span>23.07.2020</span>
+          </div>
+          <p>Sağlıklı Bir Ortamda Bebek Bakmanın En Önemli Kuralları</p>
+        </div>
+       </div>
+     </div>
+   </div>
+  </div>
+</div>
+
+
+<footer>
+  <div class="container">
+    <div class="footer-header">
+      <div class="footer-left">
+        <h1>Online Görüşme Randevusu Yapalım</h1>
+        <p>Detaylı bilgi almak ve online görüşme için formu doldurun, sizin için randevu oluşturalım!</p>
+      </div>
+      <div class="footer-right">
+        <div class="input-group">
+          <input type="text" placeholder="Adınız Soyadınız" />
+         <img style="width: 35px; height: 32px;"  class="icon" src="assets/images/user1.png" alt="">
+        </div>
+
+       <div class="input-group">
+        <input type="text" placeholder="Telefon Numaranız" />
+        <!-- style="position:absolute; top: 27px; right: 11px;" -->
+        <img style="width: 20px;" class="icon" src="assets/images/phone.svg" alt="">
+        </div>
+
+        <button class="call-btn">
+        <i><img src="assets/images/arrow.svg" alt=""></i> Sizi Arayalım
+        </button>
+      </div>
+    </div>
+
+    <div class="footer-orta">
+      <div class="grid1">
+        <div class="contact-logo grid1-sol">
+          <img src="assets/images/logo.png" alt="">
+        </div>
+        <div class="contact-info-box grid1-sol">
+        <div class="contact-line">
+          <div class="contact-icon">
+          <img src="assets/images/call1.svg" alt="Phone icon">
+         </div>
+         <div class="contact-text">
+           <p class="contact-title">DESTEK VE ÇAĞRI HATTI</p>
+           <p class="contact-number">0 342 606 04 81</p>
+         </div>
+       </div>
+
+       <div class="contact-address">
+         <p style="">Gazi Mah. Ali Nadi Ünler Bulvarı 24002 Nolu Sokak No 2/A
+         Şehitkamil / Gaziantep</p>
+       </div>
+     </div>
+    </div>
+
+    <div class="grid2">
+    <div class="grid2-text">
+    <a href="#"><h1>Gebelik ve Doğum <span class="icon-hover-bg hover-none"><i class="ri-arrow-right-s-line"></i></span></h1></a>
+     <p>Gebeliğe Hazırlık Dönemi</p>
+     <p>Gebelik Takibi</p>
+     <p>Doğum Sonrası Vücut</p>
+     <p>Yüksek Riskli Gebelik</p>
+     <p>Doğum Kontrol Yöntemleri</p>
+     <p>Dış Gebelik Tedavisi</p>
+     <p>Gebelikte Egzersiz</p>
+     <p>Gebelikte Beslenme</p>
+     <p>Anomani Taramaları</p>
+     <h2>Tümünü Göster</h2>
+    </div>
+    </div>
+
+    <div class="grid2">
+    <div class="grid2-text">
+    <a href="#"><h1>Jinekoloji <span class="icon-hover-bg hover-none"><i class="ri-arrow-right-s-line"></i></span></h1></a>
+     <p>Genital Siğil Tedavisi</p>
+     <p>İdrar Kaçırma Tedavisi</p>
+     <p>Vulvar Vestibulit Sendromu</p>
+     <p>Cinsel İlişkide Ağrı (Disporoni)</p>
+     <p>Cinsel İlişkiye Girememe</p>
+     <p>Genital Enfeksiyonlar</p>
+     <p>Adet Düzensizliği</p>
+     <p>Adet Gecikmesi</p>
+     <p>Genital Kanserler</p>
+     <h2>Tümünü Göster</h2>
+    </div>
+    </div>
+    
+     <div class="grid2">
+    <div class="grid2-text">
+    <a href="#"><h1>Vajinal Estetik <span class="icon-hover-bg hover-none"><i class="ri-arrow-right-s-line"></i></span></h1></a>
+     <p>Genital Estetik</p>
+     <p>Vajina Daraltma (Vajinoplasti)</p>
+     <p>Labioplasti</p>
+     <p>Vajina Beyazlatma</p>
+     <p>Kızlık Zarı Dikimi</p>
+     <p>Klitoris Estetiği</p>
+     <p>Pubis Estetiği</p>
+     <p>Perine Estetiği</p>
+     <p>Vajina Gençleştirme</p>
+     <h2>Tümünü Göster</h2>
+    </div>
+    </div>
+
+    <div class="grid2">
+    <div class="grid2-text">
+    <a href="#"><h1>Kürtaj <span class="icon-hover-bg hover-none"><i class="ri-arrow-right-s-line"></i></span></h1></a>
+     <p>Kürtaj</p>     
+     <h2>Tümünü Göster</h2>
+    </div>
+    </div>
+</div>
+
+   <div class="footer-alt">
+  <a href="#"><p>doktor@dromerdai.com</p></a>
+
+  <div style=" display: flex; gap: 56px; font-weight: 600; font-size: 18px;">
+    <a href="#"><p>Yazılarım</p></a>
+    <a href="#"><p>Kurumsal</p></a>
+    <a href="#"><p>İletişim</p></a>
+  </div>
+
+       <div class="footer-social">
+        <i class="ri-facebook-fill"></i>
+        <i class="ri-twitter-x-fill"></i>
+        <i class="ri-instagram-line"></i>
+        <i class="ri-linkedin-fill"></i>
+       </div>
+    </div>
+
+   <div class="footer-enalt">
+     <p>© Dr. Ömer Dai 2025 - Tüm Hakları Saklıdır.</p>
+     <p>Design and Creation by Taaf Medya</p>
+   </div>
+</div>
+</footer>
+
+
+
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
